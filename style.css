@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=1470&q=80') no-repeat center center/cover;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    backdrop-filter: blur(5px);
+}
+
+form {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    width: 350px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #333;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    padding-left: 35px; /* space for icon */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: #fff;
+}
+
+input:focus, textarea:focus {
+    border-color: #28a745;
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: #28a745;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #218838;
+}
+
+
+.form-group {
+    position: relative;
+}
+
+.form-group label i {
+    margin-right: 5px;
+    color: #28a745;
+}
+
+.form-group input, 
+.form-group textarea {
+    font-size: 14px;
+}
+
+.form-group i.fa {
+    position: absolute;
+    top: 37px;
+    left: 10px;
+    color: #aaa;
+}
